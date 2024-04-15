@@ -2,12 +2,12 @@
 
 The easiest way to get a sound playing on a webpage is with an `<audio />` element.
 
-Like the `<img />`, or `<video />` elements, `<audio />` is a way of embeding multimedia
+Like the `<img />`, or `<video />` elements, `<audio />` is a way of embedding multimedia
 into HTML pages.
 
 ## Getting an audio element on the page
 
-There are a few diffeent ways to get an `<audio />` element into our page
+There are a few different ways to get an `<audio />` element into our page
 
 ### Method 1: Adding an audio element to our HTML
 
@@ -47,7 +47,7 @@ const sfx = document.createElement('audio')
 ... if we do this, we'll need to set the `src` attribute ourselves, and give it an id or class so we can style it
 ```js
 sfx.src = './whack-audio.wav' // for src specifically we can set this using `.setAttribute('src' ...)` or with `.src = ...`
-sfx.classList.push('sfx')
+sfx.classList.add('sfx')
 ```
 ... or we can set the styles manually
 ```js
