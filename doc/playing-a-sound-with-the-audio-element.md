@@ -17,7 +17,7 @@ You can write this directly into your HTML file.
 ```
 This will show an audio player on the page which a user can play or pause using the standard controls
 
-Since we're trying to play sounds _programattically_ we won't use the `controls` attribute, and we'll
+Since we're trying to play sounds _programmatically_ we won't use the `controls` attribute, and we'll
 give the tag an `id` so that it's easier for us to interact with it from JavaScript.
 ```html
 <audio id="SfxElement" src="./whack-audio.wav" />
