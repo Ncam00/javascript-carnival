@@ -21,10 +21,10 @@ Reflect             | 30 minutes
 
 3. Open the repo in VS Code and have a look around.
 
-4. Run `npx serve` from your terminal. (Make sure you're at the root of the directory. AKA the "top", the main.. place)
+4. Run `npx vite` from your terminal. (Make sure you're at the root of the directory. AKA the "top", the main.. place)
 Because we're using modules in this exercise it won't work if you just straight up open the html file in your browser. 
 
-5. Open localhost:3000 and navigate to the html file for the first challenge, inflate-the-unicorn.html.
+5. Open [localhost:5173](http://localhost:5173/) and navigate to the html file for the first challenge, inflate-the-unicorn.html.
 
 ## The Games
 
