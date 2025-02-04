@@ -58,7 +58,8 @@ let randomIndex = getRandomNumber(0, 24)
 let randomCell = cellsArray[randomIndex]
 ```
 
-Note: This game board consists of 25 cells, stored in 5 rows of 5. Your random indexer should start at 0 and stop at the end of the array, otherwise it will try to access cells that don't exist and you will get an "indexer out of bounds" error. It would probably be better to use the length of the array instead of a hard coded number, like `let randomIndex = getRandomNumber(0, theNameOfYourArray.length)`.
+Note: This game board consists of 25 cells, stored in 5 rows of 5. Your random indexer should start at 0 and stop at the end of the array, otherwise it will try to access cells that don't exist and you will get an "indexer out of bounds" error. It would probably be better to use the length of the array instead of a hard coded number, like `let randomIndex = getRandomNumber(0, theNameOfYourArray.length - 1)`. We do `.length - 1`, again, to avoid accidentally overshooting the bounds of the array. Because arrays start counting at 0, an array with 
+3 things in it (a `.length` of `3`) only has valid indexes at [0], [1] and [2]. 
 
 #### Show the mole
 
